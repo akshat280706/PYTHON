@@ -106,4 +106,19 @@ print(type(comp_value))
 print(comp_value.real)
 print(comp_value.imag)
 
+#built-in functions for numbers
+print(abs(gpa))
+print(round(gpa)) #will round to nearest integer
+print(round(gpa,1)) #will round to nearest decimal place we specify
+
+import math
+
+print(math.log (2))
+print(math.pi)
+
+#type print(math.) and check for anything like for sqrt(64) etc etc
+#print math is a built in data type here, so we can use it anywhere!
+
+
+
 
