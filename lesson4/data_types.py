@@ -80,7 +80,30 @@ print(first[1:-1])
 print(first[1:])
 
 #some method returns bolean data
+print(first.startswith("a"))
+print(first.endswith("z"))
 
+#bolean data types:
+myvalue= True #should start with capital T
+x = bool(False)
+print(type(x))
+print(isinstance(myvalue, bool))
 
+#numeric data types
+price = 100
+best_price= int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+#float type
+gpa= 3.28
+y = float(1.14)
+print(type(gpa))
+
+#complex type
+comp_value= 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
 
 
