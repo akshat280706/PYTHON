@@ -2,7 +2,6 @@
 #print(value)
 
 #RPS using Enum
-#rock paper scissors game implementation
 import sys
 import random
 from enum import Enum
