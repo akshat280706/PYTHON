@@ -1,7 +1,17 @@
-import phonenumbers
-from phonenumbers import geocoder
+# import phonenumbers
+# from phonenumbers import geocoder
 
-phone_number1= phonenumbers.parse("+91-9137413087")
+# phone_number1= phonenumbers.parse("+91-9137413087")
 
-print("\nPhone number location:")
-print(geocoder.description_for_number(phone_number1,"en"))
+# print("\nPhone number location:")
+# print(geocoder.description_for_number(phone_number1,"en"))
+
+class Solution:
+    def checkStatus(self, a, b, flag):
+        # code here
+        if a>0 | b>0 and flag==False:
+            return True
+        elif a<0 and b<0 and flag==True:
+            return True
+        else:
+            return False
