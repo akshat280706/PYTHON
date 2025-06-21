@@ -39,7 +39,6 @@ print(total)
 total=sum(2,3)
 print(total)
 
-
 def multiple_item(*args):
     print(args)
     print(type(args))
