@@ -5,7 +5,7 @@
 #     value=False# could have also put value=0
 
 value="y"
-count=5
+count=0
 while value:
     count+=1
     print(count)
