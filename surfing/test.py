@@ -15,3 +15,8 @@ class Solution:
             return True
         else:
             return False
+        
+print("")
+var,var1,var2 = 1,2,3
+print (var)
+print (var1, var2 )
