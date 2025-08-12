@@ -1,0 +1,29 @@
+import random
+emojis = [
+    ("😀", "laugh"),
+    ("😂", "laugh"),
+    ("😢", "sad"),
+    ("🐶", "animal"),
+    ("🐱", "animal"),
+    ("🍎", "food"),
+    ("🍔", "food"),
+    ("⚽", "sports"),
+    ("🚗", "vehicle")
+]
+
+emoji, category = random.choice(emojis)
+
+print(" ")
+print("🎊Welcome to my emoji guessing game!!!")
+print("The category might be: laugh, sad, animal, food, sports or vechile")
+print("Guess the category of the emoji: ")
+print(emoji)
+
+guess = input("Your guess:\n")
+print(" ")
+
+if guess.lower() == category:
+    print("Congratulations💕!!!You Guessed it Right")
+else:
+    print("Sorry😞.The correct answer was: ", category)
+
