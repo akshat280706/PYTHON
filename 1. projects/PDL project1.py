@@ -15,7 +15,7 @@ emoji, category = random.choice(emojis)
 
 print(" ")
 print("🎊Welcome to my emoji guessing game!!!")
-print("The category might be: laugh, sad, animal, food, sports or vechile")
+print("The category might be: laugh, sad, animal, food, sports or vehicle")
 print("Guess the category of the emoji: ")
 print(emoji)
 
